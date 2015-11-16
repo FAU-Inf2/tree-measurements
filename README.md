@@ -1,4 +1,4 @@
-# syfex-measurements
+# tree-measurements
 
 This repository contains the
 evaluation of the research paper "G. Dotzler, R. Veldema, M. Philippsen: Optimizations for
