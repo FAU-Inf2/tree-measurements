@@ -1,0 +1,19 @@
+{
+  "@class" : "de.fau.cs.inf2.tree.evaluation.TimeSummary",
+  "diffSummary" : {
+    "@class" : "de.fau.cs.inf2.tree.evaluation.DiffSummary",
+    "type" : [ "de.fau.cs.inf2.tree.evaluation.TreeMatcherTypeEnum", "CD" ],
+    "matches" : 1686,
+    "inserts" : 307,
+    "moves" : 1027,
+    "deletes" : 307,
+    "updates" : 587,
+    "uri" : "https://github.com/jenkinsci/jenkins.git",
+    "branch" : "master",
+    "commitBefore" : "0099e0d9f5d9b14c5428b65cafc5c131a3d15cdf",
+    "commitAfter" : "793b6826e567e20a256a6d4166031e75a185ef7a",
+    "file" : "core/src/main/java/hudson/FilePath.java",
+    "date" : "2015-11-09 03:55:08.297"
+  },
+  "nanoTimeList" : [ 1980877754, 1996661695, 2123724153, 2290088470, 2353811613 ]
+}

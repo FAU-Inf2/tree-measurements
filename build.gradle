@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.5.4'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.5.4'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.5.4'
+}
+
+mainClassName = 'de.fau.cs.inf2.tree.evaluation.Main'

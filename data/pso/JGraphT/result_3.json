@@ -1,0 +1,15 @@
+{
+  "@class" : "de.fau.cs.inf2.tree.evaluation.PSOResult",
+  "values" : [ 0.46118294349475186, 0.7349133791765362, 0.0 ],
+  "uri" : "https://github.com/jgrapht/jgrapht",
+  "time" : 1444302777119,
+  "convergenceThreshold" : 0.2,
+  "numberOfParticles" : 13,
+  "maxNumberOfIterations" : 1000,
+  "paramA" : 0.7,
+  "paramBLoc" : 1.5,
+  "paramBGlob" : 1.7,
+  "boundVelocity" : true,
+  "bestSolution" : -3945.0,
+  "version" : 1
+}
