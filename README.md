@@ -1,7 +1,7 @@
 # tree-measurements
 
 This repository contains the
-evaluation of the research paper "G. Dotzler,M. Philippsen: Move-Optimized Source Code Tree Differencing".
+evaluation of the research paper "G. Dotzler, M. Philippsen: Move-Optimized Source Code Tree Differencing".
 
 ## Structure
 
