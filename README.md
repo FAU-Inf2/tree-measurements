@@ -3,6 +3,8 @@
 This repository contains the
 evaluation of the research paper "G. Dotzler, M. Philippsen: Move-Optimized Source Code Tree Differencing".
 
+Update 2016-07-26: The archive still contains old measurement data.
+
 ## Structure
 
 This repository is structured as follows:
