@@ -1,8 +1,7 @@
 # tree-measurements
 
 This repository contains the
-evaluation of the research paper "G. Dotzler, R. Veldema, M. Philippsen: Optimizations for
-Fine-grained Source Code Differencing".
+evaluation of the research paper "G. Dotzler,M. Philippsen: Move-Optimized Source Code Tree Differencing".
 
 ## Structure
 
