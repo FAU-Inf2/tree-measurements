@@ -1,15 +1,6 @@
 {
-  "@class" : "de.fau.cs.inf2.tree.evaluation.PSOResult",
-  "values" : [ 1.0, 1.0, 0.16168683943115594 ],
+  "@class" : "de.fau.cs.inf2.tree.evaluation.PsoResult",
+  "values" : [ 0.7819616426674921, 0.4505396062145248, 0.0026719608002389456, 0.12105287583372064, 0.9976057704305417, 0.1422323250007232 ],
   "uri" : "https://github.com/checkstyle/checkstyle.git",
-  "time" : 1444642917919,
-  "convergenceThreshold" : 0.2,
-  "numberOfParticles" : 13,
-  "maxNumberOfIterations" : 1000,
-  "paramA" : 0.7,
-  "paramBLoc" : 1.5,
-  "paramBGlob" : 1.7,
-  "boundVelocity" : true,
-  "bestSolution" : -16780.0,
-  "version" : 1
+  "bestSolution" : -16948.0
 }

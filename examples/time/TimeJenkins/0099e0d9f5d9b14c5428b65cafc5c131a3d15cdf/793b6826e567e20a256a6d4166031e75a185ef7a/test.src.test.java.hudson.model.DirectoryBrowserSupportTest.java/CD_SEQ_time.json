@@ -1,0 +1,17 @@
+{
+  "@class" : "de.fau.cs.inf2.tree.evaluation.TimeSummary",
+  "diffSummary" : {
+    "@class" : "de.fau.cs.inf2.tree.evaluation.DiffSummary",
+    "type" : [ "de.fau.cs.inf2.tree.evaluation.TreeMatcherTypeEnum", "CD_SEQ" ],
+    "matches" : 100,
+    "inserts" : 5,
+    "moves" : 57,
+    "deletes" : 5,
+    "updates" : 25,
+    "uri" : "https://github.com/jenkinsci/jenkins.git",
+    "commitBefore" : "0099e0d9f5d9b14c5428b65cafc5c131a3d15cdf",
+    "commitAfter" : "793b6826e567e20a256a6d4166031e75a185ef7a",
+    "file" : "test/src/test/java/hudson/model/DirectoryBrowserSupportTest.java"
+  },
+  "nanoTimeList" : [ 66238925, 61336156, 61403371, 61311583, 61377128 ]
+}

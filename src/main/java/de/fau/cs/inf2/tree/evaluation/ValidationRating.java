@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015 Programming Systems Group, CS Department, FAU
+ * Copyright (c) 2015-2016 Programming Systems Group, CS Department, FAU
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -24,11 +24,17 @@
 package de.fau.cs.inf2.tree.evaluation;
 
 public class ValidationRating {
-	public ValidationDecision decision;
-	public int raterID;
-
-	public ValidationRating(int raterID, ValidationDecision decision) {
-		this.raterID = raterID;
-		this.decision = decision;
-	}
+  public int raterId;
+  public ValidationDecision decision;
+  
+  /**
+   * Instantiates a new validation rating.
+   *
+   * @param raterId the rater id
+   * @param decision the decision
+   */
+  public ValidationRating(int raterId, ValidationDecision decision) {
+    this.raterId = raterId;
+    this.decision = decision;
+  }
 }

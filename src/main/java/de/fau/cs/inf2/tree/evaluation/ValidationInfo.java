@@ -1,0 +1,52 @@
+/*
+ * Copyright (c) 2015-2016 Programming Systems Group, CS Department, FAU
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+
+package de.fau.cs.inf2.tree.evaluation;
+
+public class ValidationInfo {
+  public TreeMatcherTypeEnum firstType;
+  public TreeMatcherTypeEnum secondType;
+  public TreeMatcherTypeEnum shorterType;
+  public int numberOfExamples;
+  public int validationInfoId;
+  
+  /**
+   * Instantiates a new validation info.
+   *
+   * @param firstType the first type
+   * @param secondType the second type
+   * @param shorterType the shorter type
+   * @param numberOfExamples the numberOfExamples
+   * @param validationInfoId the validation info id
+   */
+  public ValidationInfo(TreeMatcherTypeEnum firstType,
+      TreeMatcherTypeEnum secondType,
+      TreeMatcherTypeEnum shorterType, int numberOfExamples, int validationInfoId) {
+    this.firstType = firstType;
+    this.secondType = secondType;
+    this.shorterType = shorterType;
+    this.numberOfExamples = numberOfExamples;
+    this.validationInfoId = validationInfoId;
+    
+  }
+}

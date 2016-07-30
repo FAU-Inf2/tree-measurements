@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015 Programming Systems Group, CS Department, FAU
+ * Copyright (c) 2015-2016 Programming Systems Group, CS Department, FAU
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -25,7 +25,6 @@ package de.fau.cs.inf2.tree.evaluation;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -37,7 +36,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  */
 public final class Main {
 
-	private static final File DIR_EXAMPLES = new File("examples");
+  private static final File DIR_EXAMPLES = new File("examples");
 	private static final File DIR_DATA    = new File("data");
 
 
@@ -49,16 +48,31 @@ public final class Main {
 	 * Parses data/validation/validation.json and prints the total number of
 	 * votes.
 	 */
-	private static void readValidationDataAndPrint() {
-		File validationFile = new File(DIR_DATA,"/validation/validation.json");
+	private static void readValidationDataAndPrint(File path) {
+	  File validationDir = new File (path, "/validation/");
+		File validationInputFile = new File(validationDir, "val_input.json");
 		ObjectMapper mapper = TreeEvalIO.createJSONMapper();
 		try {
-			ValidationSummary summary = mapper.readValue(validationFile, ValidationSummary.class);
-			int sum = 0;
-			for (ValidationEntry entry : summary.validations) {
-				sum += entry.ratings.size();
+			ValidationInputSummary summary = mapper.readValue(validationInputFile, ValidationInputSummary.class);
+			int sum = -1;
+			if (summary != null && summary.validations != null) {
+			  sum = summary.validations.size();
 			}
-			System.out.println("Validation votes: "+sum);
+			System.out.println("Validation input size: "+sum);
+			File[] files = validationDir.listFiles();
+			int votes = 0;
+			if (files != null) {
+			  for (File raterDir : files) {
+			    if (raterDir.isDirectory()) {
+			      File rating = new File(raterDir.getAbsolutePath() + "/voting.json");
+            ValidationDecisionList list = mapper.readValue(rating, ValidationDecisionList.class);
+            if (list != null && list.decisions != null) {
+              votes += list.decisions.size();
+            }
+			    }
+			  }
+			}
+			System.out.println("Validation votes: "+votes);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -76,7 +90,7 @@ public final class Main {
 		for (final File folder : psoDir.listFiles((f) -> f.isDirectory())) {
 			for (final File psoFile : folder.listFiles((f) -> f.getName().endsWith(".json"))) {
 				try {
-					PSOResult result = mapper.readValue(psoFile, PSOResult.class);
+				  PsoResult result = mapper.readValue(psoFile, PsoResult.class);
 					if (result != null) {
 						sum++;
 					}
@@ -102,14 +116,18 @@ public final class Main {
 			for (final File commitOld : repository.listFiles((f) -> f.isDirectory())) {
 				for (final File commitNew : commitOld.listFiles((f) -> f.isDirectory())) {
 					for (final File changedFile : commitNew.listFiles((f) -> f.isDirectory())) {
+            int numberOfFiles = changedFile.listFiles((f) -> f.getName().endsWith(".json")).length;
 						for (final File resultFile : changedFile.listFiles((f) -> f.getName().endsWith(".json"))) {
 							try {
 								DiffSummary result = mapper.readValue(resultFile, DiffSummary.class);
-								if (result != null) {
-									sum++;
+								if (numberOfFiles >= 23) { // only count file revision if all necessery tree differencing versions produced results
+  								if (result != null && result.type == TreeMatcherTypeEnum.MTDIFF_GTAST) {
+  								  if (result.deletes + result.inserts + result.updates + result.moves > 0) { // only count files with changes
+  								    sum++;
+  								  }
+  								}
 								}
 							} catch (IOException e) {
-								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 						}
@@ -151,7 +169,7 @@ public final class Main {
 	}
 
 	public static void main(final String[] args) {
-		readValidationDataAndPrint();
+		readValidationDataAndPrint(DIR_EXAMPLES);
 		readPSODataAndPrint();
 		readEditScriptsAndPrint(DIR_EXAMPLES);
 		readTimeAndPrint(DIR_EXAMPLES);

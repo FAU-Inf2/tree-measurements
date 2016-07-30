@@ -1,0 +1,17 @@
+{
+  "@class" : "de.fau.cs.inf2.tree.evaluation.TimeSummary",
+  "diffSummary" : {
+    "@class" : "de.fau.cs.inf2.tree.evaluation.DiffSummary",
+    "type" : [ "de.fau.cs.inf2.tree.evaluation.TreeMatcherTypeEnum", "MTDIFF_CDAST_SEQ" ],
+    "matches" : 62,
+    "inserts" : 0,
+    "moves" : 0,
+    "deletes" : 0,
+    "updates" : 0,
+    "uri" : "https://github.com/jenkinsci/jenkins.git",
+    "commitBefore" : "0099e0d9f5d9b14c5428b65cafc5c131a3d15cdf",
+    "commitAfter" : "793b6826e567e20a256a6d4166031e75a185ef7a",
+    "file" : "core/src/main/java/hudson/util/DirScanner.java"
+  },
+  "nanoTimeList" : [ 390401, 367002, 363663, 364812, 350774 ]
+}

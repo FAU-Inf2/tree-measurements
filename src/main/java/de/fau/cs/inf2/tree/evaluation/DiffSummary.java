@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015 Programming Systems Group, CS Department, FAU
+ * Copyright (c) 2015-2016 Programming Systems Group, CS Department, FAU
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -27,34 +27,47 @@ import java.util.Date;
 
 public class DiffSummary {
 
-	public String branch;
-	public String commitAfter;
-	public String commitBefore;
-	public Date date;
-	public int deletes = 0;
-	public String file;
-	public int inserts = 0;
-	public int matches;
-	public int moves = 0;
-	public TreeMatcherTypeEnum type;
-	public int updates = 0;
-	public String uri;
+  public String commitAfter;
+  public String commitBefore;
+  public int deletes = 0;
+  public String file;
+  public int inserts = 0;
+  public int matches;
+  public int moves = 0;
+  public TreeMatcherTypeEnum type;
+  public int updates = 0;
+  public String uri;
 
-	public DiffSummary(TreeMatcherTypeEnum type, int matches, int inserts, int moves, int deletes, int updates,
-			String uri, String branch, String commitBefore, String commitAfter, String file, Date date) {
-		this.type = type;
-		this.matches = matches;
-		this.inserts = inserts;
-		this.moves = moves;
-		this.deletes = deletes;
-		this.updates = updates;
-		this.uri = uri;
-		this.branch = branch;
-		this.commitBefore = commitBefore;
-		this.commitAfter = commitAfter;
-		this.file = file;
-		this.date = date;
+  /**
+   * Instantiates a new diff summary.
+   *
+   * @param type the type
+   * @param matches the matches
+   * @param inserts the inserts
+   * @param moves the moves
+   * @param deletes the deletes
+   * @param updates the updates
+   * @param uri the uri
+   * @param branch the branch
+   * @param commitBefore the commit before
+   * @param commitAfter the commit after
+   * @param file the file
+   * @param date the date
+   */
+  public DiffSummary(TreeMatcherTypeEnum type, int matches, int inserts, int moves, int deletes,
+      int updates, String uri, String branch, String commitBefore, String commitAfter, String file,
+      Date date) {
+    this.type = type;
+    this.matches = matches;
+    this.inserts = inserts;
+    this.moves = moves;
+    this.deletes = deletes;
+    this.updates = updates;
+    this.uri = uri;
+    this.commitBefore = commitBefore;
+    this.commitAfter = commitAfter;
+    this.file = file;
 
-	}
+  }
 
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015 Programming Systems Group, CS Department, FAU
+ * Copyright (c) 2015-2016 Programming Systems Group, CS Department, FAU
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -24,11 +24,21 @@
 package de.fau.cs.inf2.tree.evaluation;
 
 public class ValidationDecision {
-	public ValidationEnum answer;
-	public int entryID;
-
-	public ValidationDecision(int entryID, ValidationEnum answer) {
-		this.entryID = entryID;
-		this.answer = answer;
-	}
+  public ValidationEnum answer;
+  @SuppressWarnings("unused")
+  private int entryId;
+  public String validationEntryId;
+  
+  /**
+   * Instantiates a new validation decision.
+   *
+   * @param entryId the entry id
+   * @param answer the answer
+   * @param validationEntryId the validationEntryId
+   */
+  public ValidationDecision(int entryId, ValidationEnum answer, String validationEntryId) {
+    this.entryId = entryId;
+    this.answer = answer;
+    this.validationEntryId = validationEntryId;
+  }
 }

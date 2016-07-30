@@ -1,0 +1,1204 @@
+{
+        "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecisionList",
+        "decisions" : [ {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 0,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "f0630c9ff3803d7e66a2a2921b093eb3"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 1,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "0cc7a79c7c9973d1d95c44ce2ac138f6"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 2,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "ef12b5937a354fa6ca84bd7b7eec03af"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 3,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "7e0cbdbda2105849de89fd6d4aab0345"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 4,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "a4c61535498e0ff891aabee9a23da544"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 5,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "ee52bf4016dae5c66aa45d629870889c"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 6,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "7adefc56b642693dece24d5c56cd697f"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 7,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "0014846314e96fd006598a89af11513d"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 8,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "bf32d1fe30dcd9f39fffe7256b0ed349"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 9,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "8a0048bb9572df4cc48ff29efa798660"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 10,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "96be7907621dec23449007f49895cbb6"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 11,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "c1072d13aec16d920872185bfc61bcdf"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 12,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "b2fe7e0932a8715a1694a54809ebb406"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 13,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "97c492147a1a97938e50813e866a2195"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 14,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "e2ca624f6faaaaa519f48f8e2cc5261a"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 15,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "e4395cec183710f92b45d18a4d5af242"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 16,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "8dc504fb17fdcae17039767165c66b13"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 17,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "f1f7d9798ebe4ffd59ae1c89875ecadb"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 18,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "12f0338ca68b7019da5a7ffbc4c43309"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 19,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "550c4f649f51c6bd1dfdc6b7e8537108"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 20,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "ebebe68e0c4bf7168f78ee471f498353"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 21,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "af8189a69c13a9890a51978975d1388c"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 22,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "0a4028339f0cf27b085f948ff8883a9b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 23,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "fa13876108c5c0fa6ba53de5a4fa568b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 24,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "7ec084aeb1742ab8ade4e1ce82e729e3"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 25,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "12c102a72dcbd65264f76c4b8d29517f"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 26,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "9d0b6814537e53bc89e6b1a3b3bdee51"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 27,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "bdb9d8debe27ac5633c73fb475ee6916"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 28,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "0ae1f78fcbdddcfc0afe630470df030f"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 29,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "4a8fb0d54b9e0e2c3be420989bec2c0d"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 30,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "15643a1fa2aa9e4d76a6aae97cc44003"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 31,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "ce328a520f18c1eae85891b3e81c4697"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 32,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "c2abe041903c33c07ea9cd71e81641aa"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 33,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "6b5d90d72d7381c95aca0c45fc3f043b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 34,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "047b2b74e1ac70ccdab86eaa3d124461"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 35,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "d25bca787d3707638d3e65edd4bb8549"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 36,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "7e5b46ad7fdd03b89a78bb573387955b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 37,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "89e33809cf71f580baece8e2a79cc374"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 38,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "c88ff93c61ce6edaf647a7a5d580e405"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 39,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "7538278f843e16621c4c314df204429b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 40,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "51173ebf2b9f4f06e137fe8c25fafdc1"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 41,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "e48d9ed79e81018a9e750585c2de7958"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 42,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "5d1dc25772176e8771f91db495fa5f32"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 43,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "1353e240bd8dfdaef83d9bd411434367"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 44,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "c5fb2bcd64bb9c5bba156370aa1a4045"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 45,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "5b238c29775592474d5a9f47917d64b6"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 46,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "ec0950878eea638d97c7faba949fb433"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 47,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "1d81255fab2568b76d242a1d8738bf2a"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 48,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "217869bfcf3f0034d35d22315664fe57"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 49,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "08628866e42f78445d9d21a75fc44cb5"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 50,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "6bc1a121aa87d972452cc39d20c1b85c"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 51,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "8d9a821c36813e6ef3595340027b2905"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 52,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "ff194654cb3643519703e9e2d21bd183"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 53,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "f4051990df34a7dcd97a806ecce378f0"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 54,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "d0adc7632334f94ec5e8338128f74ec1"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 55,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "5816d5c417646e3260d3fa77468a9f2d"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 56,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "60eb4ebd3b3617cd5fea9bbc7d58c26d"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 57,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "1560b8705513e46dfc92295c77c27773"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 58,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "d660f09fba49af40b173251188e6bcd5"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 59,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "8e2040294fd4711c4ba986d171b39719"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 60,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "0de94a8081a57b163fbf2bf9407fe75d"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 61,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "b3c5032d5ae4e6609f76d395a955db0a"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 62,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "d39b95bc71ecfc230a6054c016989d65"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 63,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "756cbecbd1ce9bc756af91e92b9d22ca"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 64,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "731352f9f183ca160052027311fa04e1"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 65,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "198f7b2f9fdb58c8d5c84b23c49c05d4"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 66,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "69e255340ef8badd2e635efdd42584d9"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 67,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "ebbbc39959a1d4f8a995e674941afabe"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 68,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "acb9de5cd730b1f08f2a7705a48bef61"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 69,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "f388b632dc0c7617faa6ab6312d56d76"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 70,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "5d6b496b1cf9f096a88cdbfd63b6a5e2"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 71,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "609c7a3eb897fb6b13e734ecf95fa59b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 72,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "f79f59954faba0f51314b49d6941a04d"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 73,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "7e89b865f1581fe0aed1d7fd88d82824"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 74,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "baf712dda08e124c6c5991e00f0e6018"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 75,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "e0d3200680852f5c0e28ba2999f22c0f"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 76,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "a1c265b94f2bdb18205814615ba5af94"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 77,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "61a115dad87a550e40de203ce0f64a44"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 78,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "9318862b9de0bba3450452b21727bd2f"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 79,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "5f2fa3c5f73075b48a9be43decc2682e"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 80,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "4176b6d3b2039c08f72fa225655b0762"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 81,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "996d1b3b6652c8f28866f8c41490e045"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 82,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "52a9a882bd1cddc48284483020ba45bf"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 83,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "6b5158f9eaaec494114ebd6f6c63b18a"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 84,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "b03d7461ee6489a1c6135798207fcc9b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 85,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "9cb6801005e9e641c1dd190e1a7f961f"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 86,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "b57428cb50351e457487cb4c940548d6"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 87,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "342c4e5b712a46e3f385847aa053d3e9"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 88,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "46ffd75e838b34a9d62899fc5a8d2029"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 89,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "fafad0d46b3c09673931b3175a9594c1"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 90,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "1d2cfb6c0482bb405ebcb80f1d8ce407"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 91,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "c82071dce385cdbb08c513599c7828ca"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 92,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "d67b44c4d82d62792715b94d87daf6a5"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 93,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "f9c29fc536556f0a2e28941f3a305918"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 94,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "56811c0d446122ab01384fa8137f4119"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 95,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "a650ea6e4ab2d5687e1fac55b9c766ea"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 96,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "3f9eb86fd02b0ecfae74c15b85fb6821"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 97,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "14343bdbf3b200ef83b2a818a60e94d2"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 98,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "e44913d0e9feda8050b1086aba0c64ec"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 99,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "b3eb48a7ea88e469dc2c6a168e45d120"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 100,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "b59e749b157f5332dffcefc485bfb29f"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 101,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "288a7df0ab1f83b5383dfd29448e11f5"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 102,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "0b05af522467afd33ae19a98999ca3c7"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 103,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "ae16879d99b723582394736cadd92ac0"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 104,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "4db7d5f1274b9a909d765fb51b86af64"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 105,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "72a87d67d97aac3650d0560b345e6183"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 106,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "8a573cd477afc49bf25bfdc58ed32c30"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 107,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "91a5f5e16a11bb52118658df0fd3dc16"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 108,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "aed9ca4dbe375b655e37fc8aaee308d1"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 109,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "df9aee12a9341a24aec3b1820801d281"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 110,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "6e723949d8ab765049489dedafa26f73"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 111,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "9f5c56050e408d7396664a31c10687f9"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 112,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "4d44916b65258d8d923b30ee9151e3d1"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 113,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "04096a8aa2930b0de1fe5564716e316d"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 114,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "0bc7e126aa9a05e7296ea7c90a38bfa2"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 115,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "04bdf21fd42c35d5dff93b62f7e73734"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 116,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "4def1c190f26ee560f550cd27db54238"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 117,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "5b019724a196874e0c09619f640ee635"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 118,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "73e79a6fa1a69ac6438fea89bdb7f181"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 119,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "9fd75ad4904a0503aab8c22abdbe68f3"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 120,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "780e32573aed9dba18c1cfa8cb93b7f9"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 121,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "3eb0c591808faf6772c98ac0d17cbe80"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 122,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "1f396e633557ea0c3e2eb58384ba76a4"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 123,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "6e46bec58962d9d72fe4058acc0708a7"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 124,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "a3edf2a3bcb3109358dad5d0dc1c1b8f"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 125,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "f8b3eecf220ae7477f73fa089ab1686e"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 126,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "601cf38e85e2a9cc65f5daa01092daaa"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 127,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "12851686b54d49bc74e9df7a853aaa5b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 128,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "dcda29b7d0c5f5d5674e1e06bf6c18d9"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 129,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "ebb7964ff27862508f40fad884eb3a1c"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 130,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "7c38af37e15a0bbd3ab7f6eb2b34d2d8"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 131,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "f98ef8c7896edf17d7e320da5821b593"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 132,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "eeed006d3560b35b2048071ae16c752f"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 133,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "a610221e19d183669a8d7ea08f960f87"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 134,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "82f89ea43e1f3c99679e5ad95e9e787b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 135,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "7fbe771739c6ba6cc4c62a248d29149d"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 136,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "ebc1fffcbe3b59c3d451952ed4e53f3b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 137,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "620da1acc5b54f887dca12878e871881"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 138,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "dcb5529dd958099ef3f9ee7e45106a9b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 139,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "801bb85ac15a80c3d9552ad82c041e32"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 140,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "baf67074fafbb13ef7d69396b39cd94c"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 141,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "ea054fe086d99ca980152bcc74d04027"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 142,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "3bf4ac3bc6875249d27b3299fcffdce4"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 143,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "60a0aaf28e11c491fb0f3530e47d03dc"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 144,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "480d221253061c27c2d10867af9a8247"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 145,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "f0d4c69243c85c93b78621d4d7171205"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 146,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "c32fd3958dae7689a3d05e3f0e83d9ae"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 147,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "b4764251bf4a7488cd25e64e69b3e523"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 148,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "0836ff48fb6be2553f0bea67966010f4"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 149,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "3bcfffc859e1b7ab8a66840eeb7e6b60"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 150,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "bec8fc8ddb1490cba81fc872496f1060"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 151,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "9c7f310057930fe642b74e2be21d38dc"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 152,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "dca48bde047b01039573c218c0591e23"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 153,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "452e1e421610f11f070e3d84cfe04711"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 154,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "8955e52d7c494b0914b2562a80f9509f"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 155,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "ef77995ae4479f2872ae56bb272d70b6"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 156,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "33dcd47bae5f653b6c1f4bab11744184"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 157,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "25bf60978f2865ab65ac3ff603a800fd"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 158,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "0b93565444db60ce574bb3f2c9cf76ac"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 159,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "a4f79cdb8c68a660a0b73aba3a454002"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 160,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "b039f7e8c78daf414b58b95e0d76127e"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 161,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "59be15fd7865e2fcabec4cf2fe826f9b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 162,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "3045b311886aad361cdeb0fa26370a2e"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 163,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "f019e54dec9bff30d7f5ed64938c8cb9"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 164,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "3e5cdb662452a0460a757a2b1f3296ac"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 165,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "d647b8ee7225a1379be4ec4af6744dfc"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 166,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "b819487d0040f979f79b69fc6de141c7"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 167,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "8ee8565cb58ab9e4bb250ee57f8eda29"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 168,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "ce93dee64f437ebdd7d84faa094f580b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 169,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "4a119e2bff8dfd2386a6490cd1e05459"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 170,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "8ea599b614ec368c935defef0d438218"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 171,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "3e9496cb8b84a7a91ef0c697cb1a64db"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 172,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "7e609446b57e96e3baff9d8a38df9980"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 173,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "ff6b85ccae144f40a9647bc27bae6769"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 174,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "200e45cc28382e50e731d281f3a99cd1"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 175,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "aa347f82ca3515d27b0bc525d903819d"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 176,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "56a729122e0360e2857719bae3c91b81"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 177,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "712ac94018f017b2319ca9ca34555515"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 178,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "e789dfef035a15a87f16b024ebaab403"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 179,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "72c0b8823bc458dbb4d05223a421283f"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 180,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "eb775c7ab0869bf2b286ae66910cbd6a"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 181,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "ba3cbf7edeaddf24539bdcd03dc4ae3a"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 182,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "95b3adc002666d9934557211182f761b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 183,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "ccfbc7091751010e4353f67b1d442f90"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 184,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "e90cfe1b8b9e4f80b5cf504cf5b9382f"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 185,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "6362af0e48da2168149955cd198fea34"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 186,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "bf607a4457713dd6f94a8394e21544f0"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 187,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "d83a9ae61fdc4f7d9b9ff1934acc12f7"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 188,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "7cb77d2be3a85e7d8451efabfe211744"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 189,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "3796e33fcee031a695af7903dd92e454"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 190,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "8da5827461f22a73b889920a0804a343"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 191,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "facad6ce4649105157f2b31297dee9d6"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 192,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "4c2fdb50bc9f3dc81c900642d86bc0eb"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 193,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "5b1536931fa99c25c87fe0c4f1a90f4a"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 194,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "782fb46d90568bf50105e041c7f103e6"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 195,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "59c93d87dd8b16d1150a90877c996809"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 196,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "6be6b1a9b6b247e47fba23729f1c1832"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 197,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "9e23a9453bb803ead0d73deb5da1687e"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 198,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "a89fba40cda3e2cbbe5818efcf24523a"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 199,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "a6c8552973421a6352159b68547ade74"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 200,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "90caa12790f83cdd3bed2aa19761e515"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 201,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "ac3ae52057b3d3f7758fbbc54b353fb0"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 202,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "4f98eec6bfec11c80188f6bbc51c47d8"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 203,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "0b0e65a9139e627de9c0ddd7f4924fd1"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 204,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "aed2b49a4e8b2e6cae24ba52f5949add"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 205,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "39bb3a76e0e1517e729f46691cad547c"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 206,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "e7eb82421815a0f155dbc7886128a2da"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 207,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "9dcdadf07a72e7537329ff7100e5c0c2"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 208,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "8d7c0cf97f18a93a5ed6072a651cb06b"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 209,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "beb784d3e31d2b300973bd6a7969bc80"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 210,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "287a6fd5040216a4d3e057d6ee5881a2"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 211,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "d8adc2e1375c2176c07b3b786e9e906c"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 212,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "bcce482fee6e1a693fcbd10d3ab84043"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 213,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "a2f0622ba51cc50fb47a4804040067e7"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 214,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "8c6ae6ac0a148dece09a67cec1a13342"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 215,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "7d64a4e41129ff5b5865aa394e32ca73"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 216,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "17f5c68da0e37bc6c19eb52f93659573"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 217,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "db61574bc7cd4059aec0a3e1216b2ba8"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 218,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "bf37a9513d8ee67d1cdd4ee641138005"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 219,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "0173a84635c45caa159afef17e8f99be"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 220,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "8c67a4a0747c2b8b4357c20d56b3d298"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 221,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "e33492afdd90470e0ff668df59c876f8"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 222,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "81be059fe0ce0d50aaaabdef615a6ba5"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 223,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "1315166831b069ab952cf8fed8051201"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 224,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "9e4d278179b87bdc5cf60de35d858648"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 225,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "16a9b7214bb4f0a268a8b7752841c4d6"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 226,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "fd7798d9823d95ff2d2938c52270cc8f"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 227,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "4d5a8d002f22a01a4cba2c45ba1eb354"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 228,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "46dc63aad08425bf9beb084bc6b70a36"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 229,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "66e1a79d830198350f857281882cd2e0"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 230,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "341fc95e49910560b25d16bbfea2af85"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 231,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "27b12cade76c60fde60e3ce6ef4c4ab1"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 232,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "1fedaece4948d879453d2ebc3942e324"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 233,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "c84c8ddd49c65dcfd4f3d323c66a6139"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 234,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "736076cc876355c75e5e95a8d350d3fc"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 235,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "SECOND" ],
+            "validationEntryId" : "8874322991c6149ef785a56fab9d84be"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 236,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "d09ef48743c5b7c0fe4cac50ae8b4fda"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 237,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "27d7027aaa59dddc451b2f7436390d6e"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 238,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "UNCLEAR" ],
+            "validationEntryId" : "a2c15dec72c9717ed00232261011640c"
+    }, {
+            "@class" : "de.fau.cs.inf2.tree.evaluation.ValidationDecision",
+            "entryId" : 239,
+            "answer" : [ "de.fau.cs.inf2.tree.evaluation.ValidationEnum", "FIRST" ],
+            "validationEntryId" : "4e7a9ad9fe29cee48ba6102345ea5074"
+    } ]
+}

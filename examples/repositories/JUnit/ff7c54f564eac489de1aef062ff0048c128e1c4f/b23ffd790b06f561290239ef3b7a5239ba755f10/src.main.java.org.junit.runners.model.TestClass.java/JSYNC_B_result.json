@@ -1,0 +1,15 @@
+{
+  "@class" : "de.fau.cs.inf2.tree.evaluation.DiffSummary",
+  "type" : [ "de.fau.cs.inf2.tree.evaluation.TreeMatcherTypeEnum", "JSYNC_B" ],
+  "matches" : 610,
+  "inserts" : 0,
+  "moves" : 0,
+  "deletes" : 112,
+  "updates" : 2,
+  "uri" : "https://github.com/junit-team/junit.git",
+  "branch" : "master",
+  "commitBefore" : "ff7c54f564eac489de1aef062ff0048c128e1c4f",
+  "commitAfter" : "b23ffd790b06f561290239ef3b7a5239ba755f10",
+  "file" : "src/main/java/org/junit/runners/model/TestClass.java",
+  "date" : 1446567508784
+}

@@ -1,0 +1,15 @@
+{
+  "@class" : "de.fau.cs.inf2.tree.evaluation.DiffSummary",
+  "type" : [ "de.fau.cs.inf2.tree.evaluation.TreeMatcherTypeEnum", "RTED_B" ],
+  "matches" : 448,
+  "inserts" : 20,
+  "moves" : 19,
+  "deletes" : 89,
+  "updates" : 16,
+  "uri" : "https://github.com/junit-team/junit.git",
+  "branch" : "master",
+  "commitBefore" : "ff7c54f564eac489de1aef062ff0048c128e1c4f",
+  "commitAfter" : "b23ffd790b06f561290239ef3b7a5239ba755f10",
+  "file" : "src/test/java/org/junit/tests/running/classes/ParentRunnerTest.java",
+  "date" : 1442840970682
+}

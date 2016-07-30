@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015 Programming Systems Group, CS Department, FAU
+ * Copyright (c) 2015-2016 Programming Systems Group, CS Department, FAU
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -26,9 +26,14 @@ package de.fau.cs.inf2.tree.evaluation;
 import java.util.List;
 
 public class ValidationDecisionList {
-	public List<ValidationDecision> decisions;
+  public List<ValidationDecision> decisions;
 
-	public ValidationDecisionList(List<ValidationDecision> decisions) {
-		this.decisions = decisions;
-	}
+  /**
+   * Instantiates a new validation decision list.
+   *
+   * @param decisions the decisions
+   */
+  public ValidationDecisionList(List<ValidationDecision> decisions) {
+    this.decisions = decisions;
+  }
 }

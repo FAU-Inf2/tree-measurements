@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015 Programming Systems Group, CS Department, FAU
+ * Copyright (c) 2015-2016 Programming Systems Group, CS Department, FAU
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -37,7 +37,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
 import de.fau.cs.inf2.tree.evaluation.DiffSummary;
-import de.fau.cs.inf2.tree.evaluation.PSOResult;
+import de.fau.cs.inf2.tree.evaluation.PsoResult;
 import de.fau.cs.inf2.tree.evaluation.TimeSummary;
 import de.fau.cs.inf2.tree.evaluation.TreeMatcherTypeEnum;
 import de.fau.cs.inf2.tree.evaluation.ValidationDecision;
@@ -45,7 +45,7 @@ import de.fau.cs.inf2.tree.evaluation.ValidationDecisionList;
 import de.fau.cs.inf2.tree.evaluation.ValidationEntry;
 import de.fau.cs.inf2.tree.evaluation.ValidationEnum;
 import de.fau.cs.inf2.tree.evaluation.ValidationRating;
-import de.fau.cs.inf2.tree.evaluation.ValidationSummary;
+import de.fau.cs.inf2.tree.evaluation.ValidationInputSummary;
 
 public class TreeEvalIO {
 	public static enum DataFormat {
@@ -189,49 +189,66 @@ public class TreeEvalIO {
 
 	}
 
-	@JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY, property = "@class")
-	private abstract static class MixInValidationDecision {
+  @JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY,
+      property = "@class")
+  private abstract static class MixInValidationDecision {
 
-		@JsonProperty("answer")
-		public ValidationEnum answer;
-		@JsonProperty("entryID")
-		public int entryID;
+    @JsonProperty("answer")
+    public ValidationEnum answer;
+    @JsonProperty("entryId")
+    public int entryId;
+    @JsonProperty("validationEntryId")
+    public String validationEntryId;
+    
+    @SuppressWarnings("unused")
+    MixInValidationDecision(@JsonProperty("entryId") int entryId,
+        @JsonProperty("answer") ValidationEnum answer,
+        @JsonProperty("validationEntryId")
+        String validationEntryId) {}
 
-		MixInValidationDecision(@JsonProperty("entryID") int entryID, @JsonProperty("answer") ValidationEnum answer) {
-		}
+  }
 
-	}
+  @JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY,
+      property = "@class")
+  private abstract static class MixInValidationDecisionList {
 
-	@JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY, property = "@class")
-	private abstract static class MixInValidationDecisionList {
+    @JsonProperty("decisions")
+    public List<ValidationDecision> decisions;
 
-		@JsonProperty("decisions")
-		public List<ValidationDecision> decisions;
+    @SuppressWarnings("unused")
+    MixInValidationDecisionList(@JsonProperty("decisions") List<ValidationDecision> decisions
 
-		MixInValidationDecisionList(@JsonProperty("decisions") List<ValidationDecision> decisions
+    ) {}
 
-		) {
-		}
+  }
 
-	}
+  @JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY,
+      property = "@class")
+  private abstract static class MixInValidationEntry {
+    @JsonProperty("id")
+    public String id;
+    
+    @JsonProperty("firstSummary")
+    public DiffSummary firstSummary;
+    
+    @JsonProperty("secondSummary")
+    public DiffSummary secondSummary;
+    
+    @JsonProperty("ratings")
+    public List<ValidationRating> ratings;
 
-	@JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY, property = "@class")
-	private abstract static class MixInValidationEntry {
-		@JsonProperty("firstSummary")
-		public DiffSummary firstSummary;
-		@JsonProperty("id")
-		public int id;
-		@JsonProperty("ratings")
-		public List<ValidationRating> ratings;
-		@JsonProperty("secondSummary")
-		public DiffSummary secondSummary;
+    @JsonProperty("validationInfoId")
+    public int validationInfoId;
+    
+    @SuppressWarnings("unused")
+    MixInValidationEntry(@JsonProperty("id") String id,
+        @JsonProperty("firstSummary") DiffSummary firstSummary,
+        @JsonProperty("secondSummary") DiffSummary secondSummary,
+        @JsonProperty("ratings") List<ValidationRating> ratings,
+        @JsonProperty("validationInfoId")
+        int validationInfoId) {}
 
-		MixInValidationEntry(@JsonProperty("id") int id, @JsonProperty("firstSummary") DiffSummary firstSummary,
-				@JsonProperty("secondSummary") DiffSummary secondSummary,
-				@JsonProperty("ratings") List<ValidationRating> ratings) {
-		}
-
-	}
+  }
 
 	@JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY, property = "@class")
 	private abstract static class MixInValidationEnum {
@@ -257,15 +274,51 @@ public class TreeEvalIO {
 
 	}
 
-	@JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY, property = "@class")
-	private abstract static class MixInValidationSummary {
-		@JsonProperty("validations")
-		public List<ValidationEntry> validations;
+  @JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY,
+      property = "@class")
+  private abstract static class MixInValidationInputSummary {
+    @JsonProperty("validationInfos")
+    public List<ValidationInfo> validationInfos;
+    @JsonProperty("validations")
+    public List<ValidationEntry> validations;
 
-		MixInValidationSummary(@JsonProperty("validations") List<ValidationEntry> validations) {
-		}
+    @SuppressWarnings("unused")
+    MixInValidationInputSummary(@JsonProperty("validationInfos") List<ValidationInfo> validationInfos, 
+        @JsonProperty("validations") List<ValidationEntry> validations) {}
 
-	}
+  }
+  
+  @JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY,
+      property = "@class")
+  private abstract static class MixInValidationInfo {
+
+    @JsonProperty("firstType")
+    public TreeMatcherTypeEnum firstType;
+
+    @JsonProperty("secondType")
+    public TreeMatcherTypeEnum secondType;
+
+    @JsonProperty("shorterType")
+    public TreeMatcherTypeEnum shorterType;
+
+    @JsonProperty("numberOfExamples")
+    public int numberOfExamples;
+
+    @JsonProperty("validationInfoId")
+    public int validationInfoId;
+
+    @SuppressWarnings("unused")
+    MixInValidationInfo(@JsonProperty("firstType") TreeMatcherTypeEnum firstType,
+
+        @JsonProperty("secondType") TreeMatcherTypeEnum secondType,
+
+        @JsonProperty("shorterType") TreeMatcherTypeEnum shorterType,
+
+        @JsonProperty("numberOfExamples") int numberOfExamples,
+
+        @JsonProperty("validationInfoId") int validationInfoId) {}
+
+  }
 
 	private static void addMixIns(ObjectMapper mapper, Class targetClass, Class mixInClass) {
 		mapper.addMixIn(targetClass, mixInClass);
@@ -300,13 +353,15 @@ public class TreeEvalIO {
 			addMixIns(mapper, TimeSummary.class, MixInTimeSummary.class);
 			addMixIns(mapper, DiffSummary.class, MixInDiffSummary.class);
 			addMixIns(mapper, TreeMatcherTypeEnum.class, MixInTreeMatcherTypeEnum.class);
-			addMixIns(mapper, PSOResult.class, MixInPSOResult.class);
+			addMixIns(mapper, PsoResult.class, MixInPSOResult.class);
 			addMixIns(mapper, ValidationDecision.class, MixInValidationDecision.class);
 			addMixIns(mapper, ValidationDecisionList.class, MixInValidationDecisionList.class);
 			addMixIns(mapper, ValidationEntry.class, MixInValidationEntry.class);
 			addMixIns(mapper, ValidationEnum.class, MixInValidationEnum.class);
 			addMixIns(mapper, ValidationRating.class, MixInValidationRating.class);
-			addMixIns(mapper, ValidationSummary.class, MixInValidationSummary.class);
+			addMixIns(mapper, ValidationInputSummary.class, MixInValidationInputSummary.class);
+      addMixIns(mapper, ValidationInfo.class, MixInValidationInfo.class);
+
 		}
 
 		return mapper;

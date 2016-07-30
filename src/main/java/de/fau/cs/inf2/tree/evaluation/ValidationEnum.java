@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015 Programming Systems Group, CS Department, FAU
+ * Copyright (c) 2015-2016 Programming Systems Group, CS Department, FAU
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -24,24 +24,32 @@
 package de.fau.cs.inf2.tree.evaluation;
 
 public enum ValidationEnum {
-	FIRST("FIRST"), SECOND("SECOND"), UNCLEAR("UNCLEAR");
+  FIRST("FIRST"), SECOND("SECOND"), UNCLEAR("UNClEAR");
 
-	public static ValidationEnum getEnum(String string) {
-		switch (string) {
-		case "FIRST":
-			return FIRST;
-		case "SECOND":
-			return SECOND;
-		case "NEUTRAL":
-			return UNCLEAR;
-		default:
-			return null;
-		}
-	}
+  /**
+   * Gets the enum.
+   *
+   * @param string the string
+   * @return the enum
+   */
+  @SuppressWarnings("ucd")
+  public static ValidationEnum getEnum(String string) {
+    switch (string) {
+      case "FIRST":
+        return FIRST;
+      case "SECOND":
+        return SECOND;
+      case "UNCLEAR":
+        return UNCLEAR;
+      default:
+        return null;
+    }
+  }
+  
+  @SuppressWarnings("ucd")
+  public final String answer;
 
-	public final String answer;
-
-	ValidationEnum(String answer) {
-		this.answer = answer;
-	}
+  ValidationEnum(String answer) {
+    this.answer = answer;
+  }
 }
