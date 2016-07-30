@@ -2,9 +2,7 @@
 
 This repository contains the
 evaluation of the research paper "G. Dotzler, M. Philippsen: Move-Optimized Source Code Tree Differencing".
-
-Update 2016-07-26: The archive still contains old measurement data.
-
+The implementation is available [here](https://github.com/FAU-Inf2/treedifferencing).
 ## Structure
 
 This repository is structured as follows:
@@ -23,7 +21,7 @@ Warning! the uncompressed archives are huge!
 - `data/repositories/JGraphT.tar.lrz`: Data for the [JGraphT repository](https://github.com/jgrapht/jgrapht), uncompressed size: 643M
 - `data/repositories/JUnit.tar.lrz`: Data for the [JUnit repository](https://github.com/junit-team/junit.git), uncompressed size: 622M
 - `data/time/TimeJenkins.tar.lrz`: Contains the results of the time measurement on [Jenkins](https://github.com/jenkinsci/jenkins.git) as JSON files in an archive.
-- `data/validation`: Contains the voting results in a single JSON file.
+- `data/validation.tar.lrz`: Contains the voting input and voting results of the 8 voters.
 - `data/examples`: Contains some uncompressed examples for the repositories and the time measurements.
 - `src/java/main`: Contains Java source code to read (and write) the JSON
   files together with a simple example application. The code relies on the [Jackson](https://github.com/FasterXML/jackson) library to parse the JSON
@@ -44,3 +42,4 @@ This builds the code and executes the example application.
 - The source code of the Java interface in `src/java/main` is licensed under
   the MIT license (see LICENSE.mit).
 - `data` is licensed under the CC0 license (see LICENSE.cc0).
+- The css, js and html code in `data/validation.tar.lrz` is part of gumtree and licensed under LGPL version 3 (see [LICENSE](https://github.com/FAU-Inf2/gumtree/blob/develop/LICENSE)).
