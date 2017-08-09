@@ -3,6 +3,10 @@
 This repository contains the
 evaluation of the research paper "G. Dotzler, M. Philippsen: Move-Optimized Source Code Tree Differencing".
 The implementation is available [here](https://github.com/FAU-Inf2/treedifferencing).
+Archived Copy:
+[![DOI](https://zenodo.org/badge/46181111.svg)](https://zenodo.org/badge/latestdoi/46181111)
+
+
 ## Structure
 
 This repository is structured as follows:
