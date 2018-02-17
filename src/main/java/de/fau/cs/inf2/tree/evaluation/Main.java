@@ -40,7 +40,6 @@ public final class Main {
 	private static final File DIR_DATA    = new File("data");
 
 
-
 	private Main() {
 	}
 
@@ -120,7 +119,7 @@ public final class Main {
 						for (final File resultFile : changedFile.listFiles((f) -> f.getName().endsWith(".json"))) {
 							try {
 								DiffSummary result = mapper.readValue(resultFile, DiffSummary.class);
-								if (numberOfFiles >= 23) { // only count file revision if all necessery tree differencing versions produced results
+								if (numberOfFiles >= 23) { // only count file revision if all necessary tree differencing versions produced results
   								if (result != null && result.type == TreeMatcherTypeEnum.MTDIFF_GTAST) {
   								  if (result.deletes + result.inserts + result.updates + result.moves > 0) { // only count files with changes
   								    sum++;
@@ -168,11 +167,47 @@ public final class Main {
 		System.out.println("Time measurements found: "+sum);
 	}
 
+	 /**
+   * Parses path/repositories and prints the total number of
+   * edit script results in the phd dataset.
+   */
+  private static void readPhdDataAndPrint(File path) {
+    File repositories = new File(path,"phdthesis");
+    ObjectMapper mapper = TreeEvalIO.createJSONMapper(true);
+    int sum = 0;
+    for (final File repository : repositories.listFiles((f) -> f.isDirectory())) {
+      for (final File commitOld : repository.listFiles((f) -> f.isDirectory())) {
+        for (final File commitNew : commitOld.listFiles((f) -> f.isDirectory())) {
+          for (final File changedFile : commitNew.listFiles((f) -> f.isDirectory())) {
+            int numberOfFiles = changedFile.listFiles((f) -> f.getName().endsWith(".json")).length;
+            for (final File resultFile : changedFile.listFiles((f) -> f.getName().endsWith(".json"))) {
+              try {
+                TimeSummary result = mapper.readValue(resultFile, TimeSummary.class);
+                if (numberOfFiles >= 29) { // only count file revision if all necessary tree differencing versions produced results
+                  if (result != null && result.diffSummary.type == TreeMatcherTypeEnum.MTDIFF_GTAST) {
+                    if (result.diffSummary.deletes + result.diffSummary.inserts 
+                        + result.diffSummary.updates + result.diffSummary.moves > 0) { // only count files with changes
+                      sum++;
+                    }
+                  }
+                }
+              } catch (Exception e) {
+                e.printStackTrace();
+              }
+            }
+          }
+        }
+      }
+    }
+    System.out.println("Edit script results in phd thesis data set found: "+sum);
+  }
+	
 	public static void main(final String[] args) {
-		readValidationDataAndPrint(DIR_EXAMPLES);
+		readValidationDataAndPrint(DIR_DATA);
 		readPSODataAndPrint();
-		readEditScriptsAndPrint(DIR_EXAMPLES);
-		readTimeAndPrint(DIR_EXAMPLES);
+		readEditScriptsAndPrint(DIR_DATA);
+		readTimeAndPrint(DIR_DATA);
+		readPhdDataAndPrint(DIR_DATA);
 	}
 }
 

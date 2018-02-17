@@ -115,6 +115,70 @@ public class TreeEvalIO {
 				@JsonProperty("date") Date date) {
 		}
 	}
+	
+	@JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY, property = "@class")
+  private abstract static class MixInPhdDiffSummary {
+    @JsonProperty("branch")
+    public String branch;
+
+    @JsonProperty("commitAfter")
+    public String commitAfter;
+
+    @JsonProperty("commitBefore")
+    public String commitBefore;
+
+    @JsonProperty("date")
+    public Date date;
+
+    @JsonProperty("deletes")
+    public int deletes;
+
+    @JsonProperty("file")
+    public String file;
+
+    @JsonProperty("inserts")
+    public int inserts;
+
+    @JsonProperty("matches")
+    public int matches;
+
+    @JsonProperty("moves")
+    public int moves;
+
+    @JsonProperty("type")
+    public TreeMatcherTypeEnum type;
+
+    @JsonProperty("updates")
+    public int updates;
+
+    @JsonProperty("uri")
+    public String uri;
+
+    MixInPhdDiffSummary(@JsonProperty("type") TreeMatcherTypeEnum type,
+
+        @JsonProperty("matches") int matches,
+
+        @JsonProperty("inserts") int inserts,
+
+        @JsonProperty("moves") int moves,
+
+        @JsonProperty("deletes") int deletes,
+
+        @JsonProperty("updates") int updates,
+
+        @JsonProperty("uri") String uri,
+
+        @JsonProperty("branch") String branch,
+
+        @JsonProperty("commitOriginal") String commitBefore,
+
+        @JsonProperty("commitModified") String commitAfter,
+
+        @JsonProperty("file") String file,
+
+        @JsonProperty("date") Date date) {
+    }
+  }
 
 	@JsonTypeInfo(use = JsonTypeInfo.Id.CLASS, include = JsonTypeInfo.As.PROPERTY, property = "@class")
 	private abstract static class MixInPSOResult {
@@ -324,11 +388,15 @@ public class TreeEvalIO {
 		mapper.addMixIn(targetClass, mixInClass);
 	}
 
-	public static ObjectMapper createJSONMapper() {
-		return createJSONMapper(DataFormat.FORMAT_JSON);
+  public static ObjectMapper createJSONMapper() {
+    return createJSONMapper(DataFormat.FORMAT_JSON, false);
+  }
+	
+	public static ObjectMapper createJSONMapper(boolean usePhdVersion) {
+		return createJSONMapper(DataFormat.FORMAT_JSON, usePhdVersion);
 	}
 
-	public static ObjectMapper createJSONMapper(final DataFormat format) {
+	public static ObjectMapper createJSONMapper(final DataFormat format, boolean usePhdVersion) {
 		final ObjectMapper mapper;
 		{
 			switch (format) {
@@ -351,7 +419,11 @@ public class TreeEvalIO {
 			DateFormat df = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss.S");
 			mapper.setDateFormat(df);
 			addMixIns(mapper, TimeSummary.class, MixInTimeSummary.class);
-			addMixIns(mapper, DiffSummary.class, MixInDiffSummary.class);
+			if (usePhdVersion) {
+	       addMixIns(mapper, DiffSummary.class, MixInPhdDiffSummary.class);
+			} else {
+			  addMixIns(mapper, DiffSummary.class, MixInDiffSummary.class);
+			}
 			addMixIns(mapper, TreeMatcherTypeEnum.class, MixInTreeMatcherTypeEnum.class);
 			addMixIns(mapper, PsoResult.class, MixInPSOResult.class);
 			addMixIns(mapper, ValidationDecision.class, MixInValidationDecision.class);
