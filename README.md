@@ -2,9 +2,13 @@
 
 This repository contains the
 evaluation of the research paper "G. Dotzler, M. Philippsen: Move-Optimized Source Code Tree Differencing".
+
+It also contains the tree differencing evaluation of the PhD thesis "G. Dotzler: Learning Code Transformations from
+Repositories, Friedrich-Alexander University Erlangen-Nürnberg, 2018".
+
 The implementation is available [here](https://github.com/FAU-Inf2/treedifferencing).
 
-Archived Copy:
+Archived copy of the research paper:
 
 [![DOI](https://zenodo.org/badge/46181111.svg)](https://zenodo.org/badge/latestdoi/46181111)
 
@@ -12,6 +16,7 @@ Archived Copy:
 ## Structure
 
 This repository is structured as follows:
+- `data/phdthesis`: Contains the results of the phd thesis evaluation stored in JSON files.
 - `data/pso`: Contains the results or the particle swarm optimization runs stored in JSON files.
 - `data/repositories`: Contains the results of the tree differencing algorithms as JSON files. Each
 file contains the commit and file of the change, the resulting matches and the size of the edit script.
