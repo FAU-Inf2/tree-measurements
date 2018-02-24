@@ -8,13 +8,9 @@ Repositories, Friedrich-Alexander University Erlangen-Nürnberg, 2018".
 
 The implementation is available [here](https://github.com/FAU-Inf2/treedifferencing).
 
-Archived copy of the research paper:
+Archived copy:
 
 [![DOI](https://zenodo.org/badge/46181111.svg)](https://zenodo.org/badge/latestdoi/46181111)
-
-Archived copy of the Phd Thesis:
-
-[![DOI](https://zenodo.org/badge/1183900.svg)](https://zenodo.org/badge/latestdoi/1183900)
 
 ## Structure
 
