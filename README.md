@@ -14,7 +14,7 @@ Archived copy of the research paper:
 
 Archived copy of the Phd Thesis:
 
-[![DOI](https://zenodo.org/badge/46181111.svg)](https://zenodo.org/badge/latestdoi/1183900)
+[![DOI](https://zenodo.org/badge/1183900.svg)](https://zenodo.org/badge/latestdoi/1183900)
 
 ## Structure
 
