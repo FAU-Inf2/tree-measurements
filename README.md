@@ -4,7 +4,7 @@ This repository contains the
 evaluation of the research paper "G. Dotzler, M. Philippsen: Move-Optimized Source Code Tree Differencing".
 
 It also contains the tree differencing evaluation of the PhD thesis "G. Dotzler: Learning Code Transformations from
-Repositories, Friedrich-Alexander University Erlangen-Nürnberg, 2018".
+Repositories, Friedrich-Alexander University Erlangen-Nürnberg, 2018". https://doi.org/10.25593/978-3-96147-142-3
 
 The implementation is available [here](https://github.com/FAU-Inf2/treedifferencing).
 
